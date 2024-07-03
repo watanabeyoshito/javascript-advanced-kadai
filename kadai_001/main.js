@@ -136,6 +136,7 @@ start.addEventListener('click', () => {
   // 「スタート」ボタンを非表示にする
   start.style.display = 'none';
 
+  
   typecount.style.display = 'block';
 
   // キーボードのイベント処理
