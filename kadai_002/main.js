@@ -96,6 +96,9 @@ return `${score}文字打てました!\n${text}\n [OK] リトライ / [キャン
 // ゲームを終了
 const gameOver = id => {
   clearInterval(id);
+  typed = '';
+  untyped = '';
+  typedfield.textContent = '';
   untypedfield.textContent = 'タイムアップ！';
 
   setTimeout(() => {
